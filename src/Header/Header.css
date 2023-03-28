@@ -1,4 +1,17 @@
 .header{
     background-color: #1C2B35;
     height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+nav.header a{
+    text-decoration: none;
+    margin:0 10px;
+    color: white;
+}
+nav.header a:hover{
+    color: #FF9900;
 }
